@@ -28,7 +28,7 @@ namespace SDKTemplate
         private Rect wordBoundingRect;
 
         /// <summary>
-        /// Left and Right properties of Thickess define word box position.
+        /// Left and Right properties of Thickness define word box position.
         /// </summary>
         public Thickness WordPosition => new Thickness(wordBoundingRect.Left, wordBoundingRect.Top, 0, 0);
 
